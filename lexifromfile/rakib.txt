@@ -1,0 +1,3 @@
+First, open the text file using the fopen() function.
+Second, use the function fgets() to read text from the stream and store it as a string. The newline or EOF character makes the fgets() function stop reading so you can check the newline or EOF file character to read the whole line.
+Third, close the text file using the fclose() function
